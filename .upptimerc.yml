@@ -1,21 +1,21 @@
  owner: AVictoroff
- repo: SOuverain
+ repo: Souverain
 
  sites:
    - name: Souverain Spine
-     url: https://app.souverainspine.com/
+     url: https://souverain-spine.vercel.app/
    - name: API health
-     url: https://app.souverainspine.com/api/health
+     url: https://souverain-spine.vercel.app/api/health
      expectedStatusCodes: [200]
    - name: Auth signup
-     url: https://app.souverainspine.com/auth/signup
+     url: https://souverain-spine.vercel.app/auth/signup
    - name: Stripe webhook
-     url: https://app.souverainspine.com/api/webhooks/stripe
+     url: https://souverain-spine.vercel.app/api/webhooks/stripe
      method: GET
      expectedStatusCodes: [400, 405] # GET is rejected; not 5xx
 
  status-website:
-   cname: status.souverainspine.com
+   cname: souverain-spine.com
    name: Souverain Spine status
    introTitle: "**Souverain Spine status**"
    introMessage: Real-time uptime, response time, and incident history.
@@ -23,9 +23,5 @@
      - title: Status
        href: /
      - title: GitHub
-       href: https://github.com/souverainspine/status
-
- notifications:
-   - type: slack
-     channel: "#alerts"
-     url: $SLACK_WEBHOOK_URL
+       href: https://github.com/souverain/status
+L
