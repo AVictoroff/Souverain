@@ -1,7 +1,7 @@
 url: https://souverain-spine.vercel.app/api/webhooks/stripe
 status: up
 code: 405
-responseTime: 301
-lastUpdated: 2026-11-21T03:43:25.667Z
+responseTime: 220
+lastUpdated: 2026-11-22T02:47:28.668Z
 startTime: 2026-05-11T04:06:16.142Z
 generator: Upptime <https://github.com/upptime/upptime>
